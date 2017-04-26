@@ -8,8 +8,11 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:8000
 npm run dev
+
+# open in brower
+localhost:8000/
 
 # build for production with minification
 npm run build
@@ -24,12 +27,11 @@ npm run e2e
 npm test
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 src下面各个文件夹的含义就如同语义一样直接
 
 
-store中放置vuex的相关api
+store中放置vuex的相关设置
 
 
 router中是路由的配置
@@ -38,7 +40,7 @@ router中是路由的配置
 assets放置静态图片  静态js  静态img  静态css
 
 
-page是各个页面
+page放置各个页面
 
 
-components中放置的各个通用组件
+components中放置通用组件
