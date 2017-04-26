@@ -20,6 +20,7 @@ export default {
     }
   },
   created () {
+    alert('请注意打印信息')
     conColor('通过mapGetters获取到vuex中的paramOne ----->' + this.paramOne)
   },
   computed: {
@@ -32,7 +33,7 @@ export default {
     },
     action () {
       this.$store.dispatch('paramOne', 7)
-      conColor("this.$store.dispatch('paramOne', 7)" + this.paramOne)
+      conColor("this.$store.dispatch('paramOne', 7)----->" + this.paramOne)
     }
   }
 }
@@ -44,5 +45,6 @@ export default {
      height: 40px;
      margin-top: 20px;
      font-size: 16px;
+     background: red;
    }
 </style>
