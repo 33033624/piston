@@ -5,11 +5,10 @@ import App from './App'
 import router from './router'
 Vue.config.productionTip = false
 import './assets/css/base.scss'
-import store from './store'
+// import store from './store'
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
-  store,
   render: h => h(App)
 })

@@ -1,15 +1,17 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '../page/Hello'
+import Fadongji1 from '../page/fadongji.vue'
 
 Vue.use(Router)
 
 export default new Router({
+  hashbang: true,
+  history: false,
   routes: [
     {
-      path: '/',
-      name: 'Hello',
-      component: Hello
+      path: '/fadongji1',
+      name: 'fadongji1',
+      component: Fadongji1
     }
   ]
 })
