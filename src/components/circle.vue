@@ -9,7 +9,7 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="scss">
   .circle{
     border-radius: 50%;
   }

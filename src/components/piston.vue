@@ -21,7 +21,8 @@ export default {
      height: 70px;
      background: blue;
      position: relative;
-     top: 20px;
+     top: 25px;
+     z-index: 5;
    }
    ul{
      position: absolute;

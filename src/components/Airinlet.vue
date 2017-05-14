@@ -27,6 +27,7 @@ export default {
   z-index: 1;
   border-right: none;
   background: white;
+  border-left-color: transparent;
 }
 .section2{
   width: 20px;
@@ -36,5 +37,6 @@ export default {
   right: 0;
   top: 0;
   border: 5px solid black;
+  border-bottom: none;
 }
 </style>

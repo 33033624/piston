@@ -28,6 +28,7 @@ export default {
   background: white;
   right: 0;
   border-left: none;
+  border-right-color: transparent;
 }
 .section2{
   width: 20px;
@@ -37,5 +38,6 @@ export default {
   left: 0;
   top: 0;
   border: 5px solid black;
+  border-bottom: none;
 }
 </style>
